@@ -1,0 +1,26 @@
+driver to esp
+in1 18
+in2 19
+in3 22
+in4 23
+
+left motor
+c1 26
+c2 27
+
+right motor
+c1 32
+c2 33
+
+
+IR
+IR 1	GPIO 34	  Leftmost Sensor
+IR 2	GPIO 35	  Left Sensor
+IR 3	GPIO 13	  Center Sensor
+IR 4	GPIO 14	  Right Sensor
+IR 5	GPIO 25	  Rightmost Sensor
+
+
+ppr 998
+wheeldiameter 4cm 
+distance bw wheels 12cm

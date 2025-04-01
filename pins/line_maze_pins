@@ -1,0 +1,51 @@
+ESP32 Pin Mapping for Line Maze Solver
+
+Motor Driver Connections
+    IN1 → GPIO 18 (Left Motor Forward)
+
+    IN2 → GPIO 19 (Left Motor Backward)
+
+    IN3 → GPIO 22 (Right Motor Forward)
+
+    IN4 → GPIO 23 (Right Motor Backward)
+
+Motor Encoder Connections
+    Left Motor Encoder C1 → GPIO 26
+
+    Left Motor Encoder C2 → GPIO 27
+
+    Right Motor Encoder C1 → GPIO 32
+
+    Right Motor Encoder C2 → GPIO 33
+
+Line Following IR Sensors (TCRT5000 Array)
+    IR 1 (Leftmost) → GPIO 34
+
+    IR 2 (Left) → GPIO 35
+
+    IR 3 (Center) → GPIO 13
+
+    IR 4 (Right) → GPIO 14
+
+    IR 5 (Rightmost) → GPIO 25
+
+Buck Converter Connections
+Buck Converter 1 (For ESP32 & Sensors)
+
+    Input (VIN+) → Main Battery Positive
+
+    Input (GND) → Main Battery Negative
+
+    Output (VOUT+) → ESP32 3.3V & IR Sensors VCC
+
+    Output (GND) → ESP32 GND & IR Sensors GND
+
+Buck Converter 2 (For Motor Driver)
+
+    Input (VIN+) → Main Battery Positive
+
+    Input (GND) → Main Battery Negative
+
+    Output (VOUT+) → Motor Driver VCC (5V)
+
+    Output (GND) → Motor Driver GND
